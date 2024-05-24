@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(233, 245, 245);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ページ全体のコンテナ */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* ツイート一覧ページのスタイル */
+.tweet-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.tweet-list li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.tweet-content p {
+    margin: 0;
+}
+
+.tweet-info {
+    font-style: italic;
+    font-size: small;
+}
+
